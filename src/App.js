@@ -10,6 +10,7 @@ import Login from './Page/Login/Login';
 import Register from './Page/Register/Register';
 import NotFound from './Page/NotFound/NotFound';
 import About from './Page/About/About';
+import InventoryItem from './Page/InventoryItem/InventoryItem';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<Home></Home>} ></Route>
         <Route path='/home' element={<Home></Home>} ></Route>
         <Route path='/products' element={<Product></Product>} ></Route>
+        <Route path='/product/:productId' element={<InventoryItem></InventoryItem>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>} ></Route>
