@@ -1,0 +1,32 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    margin-top: 200px;
+}
+
+.footer-container img {
+    background-color: orange;
+    padding: 2px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.footer-container p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media only screen and(max-width:600px) {
+    .footer-services {
+        padding: 20px;
+    }
+}
+
+@media only screen and(min-width:440px) {
+    .footer-services {
+        padding: 20px;
+    }
+}
