@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ClientReview from '../ClientReview/ClientReview';
 import Product from '../Product/Product';
 import Slider from '../Slider/Slider';
 import TopItem from '../TopItem/TopItem';
@@ -25,7 +26,7 @@ const Home = () => {
                 }
             </div>
             <TopItem></TopItem>
-
+            <ClientReview></ClientReview>
 
         </div>
     );

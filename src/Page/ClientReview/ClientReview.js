@@ -2,9 +2,9 @@ import React from 'react';
 import img1 from '../../img/client-1.jpg';
 import img2 from '../../img/client-2.jpg';
 import img3 from '../../img/client-3.jpg';
-import './ClientsReview.css';
+import './ClientReview.css';
 
-const ClietnsReview = () => {
+const ClientReview = () => {
     return (
         <div>
             <h2 className='text-center fw-bold my-5 text-success'>Our Happy Clients:</h2>
@@ -46,4 +46,4 @@ const ClietnsReview = () => {
     );
 };
 
-export default ClietnsReview;
+export default ClientReview;
