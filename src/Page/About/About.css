@@ -1,0 +1,26 @@
+.address-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width:660Px) {
+    .address-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .address-container .text {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and(max-width:660px) {
+    .service-text {
+        padding: 20px;
+    }
+}

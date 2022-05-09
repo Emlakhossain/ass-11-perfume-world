@@ -25,7 +25,7 @@ const Home = () => {
                 }
             </div>
             <TopItem></TopItem>
-            {/* <ClietnsReview></ClietnsReview> */}
+
 
         </div>
     );
