@@ -9,10 +9,11 @@ const Home = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('products.json')
+        fetch('https://young-chamber-17457.herokuapp.com/product')
             .then(res => res.json())
             .then(data => setProducts(data))
-    }, [])
+
+    }, [products])
     return (
         <div>
             <Slider></Slider>

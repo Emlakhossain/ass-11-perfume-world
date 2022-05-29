@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { Button, Form } from 'react-bootstrap';
 import auth from '../../firebase.init';
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import './Login.css';
 
 
 const Login = () => {
@@ -21,6 +22,7 @@ const Login = () => {
     if (user1 || user2) {
         navigate(from, { replace: true });
     }
+
     const handleLoginPageSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
@@ -37,7 +39,7 @@ const Login = () => {
     }
     return (
         <div>
-            <div className='container w-50 border mt-5 p-3'>
+            <div className='container w-50 border  p-3 mx-auto'>
                 <h2 className='text-center text-primary my-5'>Please Login</h2>
                 <Form onSubmit={handleLoginPageSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">

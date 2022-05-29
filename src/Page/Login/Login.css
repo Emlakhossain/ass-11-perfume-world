@@ -2,3 +2,7 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+.text-center {
+    margin-top: 20px;
+}
